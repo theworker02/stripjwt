@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stripjwt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip numeric jwt values, ranges, and human-readable units.",
+  "bin": {
+    "stripjwt": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stripjwt.git"
+  },
+  "homepage": "https://theworker02.github.io/stripjwt/",
+  "keywords": [
+    "strip",
+    "jwt",
+    "number",
+    "cli",
+    "toolkit"
+  ]
+}
